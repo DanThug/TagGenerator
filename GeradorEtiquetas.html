@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./products.js"></script>
+    <title>Gerador de Etiquetas</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row"><!-- row-container -->
+            <div class="col-md-3 nav"><!-- col-md-3 nav -->
+                <div class="row">
+                    <button type="button" class="btn-block btn btn-primary btn-block print-paper-container">
+                        <i class="fa fa-print" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-warning btn-block reset-paper-container">
+                        <i class="fa fa-eraser" aria-hidden="true"></i>
+                    </button>
+
+                    <input type="text" class="form-control search-products" placeholder="Pesquisar peças..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        
+                    <ul class="product-name-list list-group">
+                        <!-- add list here -->
+                    </ul>
+                </div>
+            </div><!-- col-md-3 -->
+
+            <div class="col-md-9">
+                <div class="paper-container">
+                    <!-- add tag here -->
+                </div>
+            </div>
+        </div><!-- row-container -->
+    </div><!-- container -->
+
+    <script src="./app.js"></script>
+    
+</body>
+
+</html>
